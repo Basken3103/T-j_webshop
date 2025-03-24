@@ -25,9 +25,10 @@ let products = [
         ["s", "m", "l", "xl", "xxl"],
         ["Sort", "Rød", "Brun", "Hvid"],
         "Lækker cardigan i eksklusiv kamelud",
-        850,
-        10,
+        850, //Pris
+        10, //Rabatprocent
         "images/1.jpg",
+        true,
         true
 
     ],
@@ -39,10 +40,11 @@ let products = [
         ["xs", "s", "m", "l", "xl"],
         ["Sort", "Mørkerød", "Navy", "Hvid"],
         "Smuk og eksklusiv festkjole i akryl",
-        700,
-        0,
+        700, //Pris
+        0, //Rabatprocent
         "images/2.jpg",
-        true
+        true,
+        false
     ],
     [
         3,
@@ -52,9 +54,10 @@ let products = [
         ["xs", "s", "m", "l", "xl"],
         ["Hvid"],
         "Elegant konfirmationskjole i bommuld og akryl",
-        1200,
-        15,
+        1200, //Pris
+        15, //Rabatprocent
         "images/3.jpg",
+        true,
         true
     ],
     [
@@ -65,8 +68,8 @@ let products = [
         ["xs", "s", "m", "l"],
         ["Sort", "Rosa", "Hvid", "Gul"],
         "Komfortabel sweater med høj hals",
-        760,
-        10,
+        760, //Pris
+        10, //Rabatprocent
         "images/4.jpg",
         true,
         true
@@ -79,9 +82,10 @@ let products = [
         ["xs", "s", "m", "l", "xl", "xxl"],
         ["Sort", "Orange", "Hvid", "Grå"],
         "Lækker sweater med høj hals",
-        649,
-        0,
+        649, //Pris
+        0, //Rabatprocent
         "images/5.jpg",
+        false,
         false
     ],
     [
@@ -92,9 +96,10 @@ let products = [
         ["xs", "s", "m", "l", "xl", "xxl"],
         ["Sort", "Hvid", "Blå"],
         "Slidstærk T-shirt i 100% bommuld",
-        649,
-        5,
+        649, //Pris
+        5, //Rabatprocent
         "images/6.jpg",
+        true,
         true
     ],
     [
@@ -105,9 +110,10 @@ let products = [
         ["s", "m", "l", "xl"],
         ["Sort", "Blå"],
         "Smarte Wrangler jeans der sidder perfekt",
-        649,
-        5,
+        649, //Pris
+        5, //Rabatprocent
         "images/7.jpg",
+        true,
         true
     ]
 ]
